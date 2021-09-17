@@ -1,0 +1,162 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body
+{
+  margin: 0;
+  background-color: #e0e8ff;
+}
+
+.bg
+{
+  width: 100%;
+}
+.oc
+{
+  position: absolute;
+  left: 37%;
+  top: 230px;
+  font-family: "red hat display";
+  font-weight: bold;
+  font-size: 17px;
+  color: grey;
+}
+.oc:hover
+{
+  color: black;
+}
+
+.panel
+{
+  background-color: white;
+  position: relative;
+  bottom: 200px;
+  margin: auto;
+  width: 500px;
+  height: 800px;
+  border-radius: 30px;
+}
+.music-img
+{
+  width: inherit;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.h2box
+{
+  position: absolute;
+  left: 25%;
+  top: 36%;
+  font-family: "red hat display";
+  font-weight: bold;
+  font-size: 135%;
+}
+#para
+{
+  text-align: center;
+  font-family: "red hat display";
+  font-size: 105%;
+  color: grey;
+  width: 65%;
+  line-height: 1.5;
+  position: absolute;
+  left: 85px;
+  top: 350px;
+}
+
+
+.plan-box
+{
+  background-color: #f8f9fe;
+  width: 375px;
+  height: 113px;
+  position: relative;
+  margin: 220px auto auto auto;
+  border-radius: 15px;
+}
+.icon
+{
+  position: relative;
+  top: 25%;
+  left: 7%;
+  width: 15%;
+}
+.plan-text
+{
+  font-family: "red hat display";
+  float: right;
+  position: absolute;
+  top: 11px;
+  left: 100px;
+}
+
+
+.plan-text1
+{
+  font-size: 1.1rem;
+  float: right;
+  position: absolute;
+  top: 43px;
+  left: 100px;
+  font-family: "red hat display";
+  font-weight: lighter;
+  color: grey;
+  ;
+}
+#cta1
+{
+  color: #382ae1;
+  font-family: "red hat display";
+  font-weight: bold;
+  position: absolute;
+  bottom: 42.5px;
+  right: 30px;
+}
+#cta1:hover
+{
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.BUTTON_PIC
+{
+  position: relative;
+  left: 0;
+  top: 80px;
+}
+
+.BUTTON_PIC {
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   height: 6px;
+   line-height: 10px;
+   color: #FFFFFF;
+   font-family: "red hat display";
+   width: 325px;
+   font-size: 17px;
+   font-weight: 100;
+   padding: 26px;
+   background-color: #382AE1;
+   -webkit-box-shadow: 4px 18px 17px 12px #E2E0FF;
+   -moz-box-shadow: 4px 18px 17px 12px #E2E0FF;
+   box-shadow: 4px 18px 15px 12px #E2E0FF;
+   border: outset #382AE1 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_PIC:hover {
+   border: solid #766cf1 1px;
+   background: #766cf1;
+   background-image: -webkit-linear-gradient(top, #766cf1, #382AE1;
+   background-image: -moz-linear-gradient(top, #766cf1, #382AE1);
+   background-image: -ms-linear-gradient(top, #766cf1, #382AE1);
+   background-image: -o-linear-gradient(top, #766cf1, #382AE1);
+   background-image: -webkit-gradient(to bottom, #766cf1, #382AE1);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
